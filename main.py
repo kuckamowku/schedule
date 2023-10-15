@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask
 import calendar
 from datetime import datetime
 from tabulate import tabulate
