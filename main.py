@@ -30,8 +30,7 @@ def create_schedule(year, month):
         "worker7": {'schedule': ['н'] * days_in_month, 'hours': 0},
         "worker8": {'schedule': ['н'] * days_in_month, 'hours': 0},
         "worker9": {'schedule': ['н'] * days_in_month, 'hours': 0},
-        "worker10": {'schedule': ['н'] * days_in_month, 'hours': 0},
-        "worker11": {'schedule': ['н'] * days_in_month, 'hours': 0}
+        "worker10": {'schedule': ['н'] * days_in_month, 'hours': 0}
     }  # Список работников, можно добавить новых, если требуется
     last_worker = 0
     for i in range(days_in_month):
@@ -116,4 +115,3 @@ def hello():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
